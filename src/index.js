@@ -1,2 +1,3 @@
-const answer = 42;
-export default answer;
+import bruteForce from './bruteForce.js';
+
+export const findAll = bruteForce;
