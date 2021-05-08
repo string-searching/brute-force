@@ -1,0 +1,24 @@
+{
+  "coverage": "66.66%",
+  "expectCount": 3,
+  "actualCount": 2,
+  "files": {
+    "src/bruteForce.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    },
+    "src/index.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        3
+      ]
+    },
+    "src/startsWith.js": {
+      "expectCount": 1,
+      "actualCount": 1,
+      "undocumentLines": []
+    }
+  }
+}

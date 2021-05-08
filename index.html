@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">Home | @string-searching/brute-force</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Brute-force string searching for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@string-searching/brute-force"><meta property="twitter:description" content="Brute-force string searching for JavaScript"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/string-searching/brute-force"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-bruteForce">bruteForce</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-startsWith">startsWith</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-findAll">findAll</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="-muscle---a-href--https---string-searching-github-io-brute-force---string-searching-brute-force--a-">:muscle: <a href="https://string-searching.github.io/brute-force">@string-searching/brute-force</a></h1><p>Brute-force string searching for JavaScript.
+See <a href="https://string-searching.github.io/brute-force/index.html">docs</a>.</p>
+<blockquote>
+<p>:warning: Depending on your environment, the code may require
+<code>regeneratorRuntime</code> to be defined, for instance by importing
+<a href="https://www.npmjs.com/package/regenerator-runtime">regenerator-runtime/runtime</a>.</p>
+</blockquote>
+<pre><code class="lang-js"><code class="source-code prettyprint">import {findAll} from &apos;@string-searching/brute-force&apos;;
+
+const string = &apos;aaabaaa&apos;;
+const pattern = &apos;aa&apos;;
+
+for (const i of findAll(string, 0, string.length, pattern, 0, pattern.length)) {
+    // yields 0 1 4 5
+}
+
+import {startsWith} from &apos;@string-searching/brute-force&apos;;
+
+startsWith(pattern, 0, 2, string, 3); // false
+startsWith(pattern, 0, 2, string, 4); // true</code>
+</code></pre>
+<p><a href="https://raw.githubusercontent.com/string-searching/brute-force/main/LICENSE"><img src="https://img.shields.io/github/license/string-searching/brute-force.svg" alt="License"></a>
+<a href="https://www.npmjs.org/package/@string-searching/brute-force"><img src="https://img.shields.io/npm/v/@string-searching/brute-force.svg" alt="Version"></a>
+<a href="https://github.com/string-searching/brute-force/actions/workflows/ci:test.yml?query=branch:main"><img src="https://img.shields.io/github/workflow/status/string-searching/brute-force/ci:test?event=push&amp;label=tests" alt="Tests"></a>
+<a href="https://david-dm.org/string-searching/brute-force"><img src="https://img.shields.io/david/string-searching/brute-force.svg" alt="Dependencies"></a>
+<a href="https://david-dm.org/string-searching/brute-force?type=dev"><img src="https://img.shields.io/david/dev/string-searching/brute-force.svg" alt="Dev dependencies"></a>
+<a href="https://github.com/string-searching/brute-force/issues"><img src="https://img.shields.io/github/issues/string-searching/brute-force.svg" alt="GitHub issues"></a>
+<a href="https://www.npmjs.org/package/@string-searching/brute-force"><img src="https://img.shields.io/npm/dm/@string-searching/brute-force.svg" alt="Downloads"></a></p>
+<p><a href="https://codeclimate.com/github/string-searching/brute-force/issues"><img src="https://img.shields.io/codeclimate/issues/string-searching/brute-force.svg" alt="Code issues"></a>
+<a href="https://codeclimate.com/github/string-searching/brute-force/trends/churn"><img src="https://img.shields.io/codeclimate/maintainability/string-searching/brute-force.svg" alt="Code maintainability"></a>
+<a href="https://codecov.io/gh/string-searching/brute-force"><img src="https://img.shields.io/codecov/c/gh/string-searching/brute-force/main.svg" alt="Code coverage (cov)"></a>
+<a href="https://codeclimate.com/github/string-searching/brute-force/trends/technical_debt"><img src="https://img.shields.io/codeclimate/tech-debt/string-searching/brute-force.svg" alt="Code technical debt"></a>
+<a href="https://string-searching.github.io/brute-force/source.html"><img src="https://string-searching.github.io/brute-force/badge.svg" alt="Documentation"></a>
+<a href="https://bundlephobia.com/result?p=@string-searching/brute-force"><img src="https://img.shields.io/bundlephobia/minzip/@string-searching/brute-force" alt="Package size"></a></p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
