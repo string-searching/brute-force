@@ -197,7 +197,6 @@
       "unicorn"
     ],
     "rules": {
-      "no-labels": "off",
       "unicorn/filename-case": [
         "error",
         {

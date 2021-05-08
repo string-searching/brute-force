@@ -1,3 +1,5 @@
+import match from './match.js';
+
 /**
  * Find.
  *
@@ -12,13 +14,7 @@
 export default function* bruteForce(s, si, sj, p, pi, pj) {
 	const m = pj - pi;
 
-	sequence: for (; si <= sj - m; ++si) {
-		for (let j = 0; j < m; ++j) {
-			if (s[si + j] !== p[pi + j]) {
-				continue sequence;
-			}
-		}
-
-		yield si;
+	for (; si <= sj - m; ++si) {
+		if (match(m, s, si, p, pi)) yield si;
 	}
 }
