@@ -1,4 +1,4 @@
-import match from './match.js';
+import startsWith from './startsWith.js';
 
 /**
  * Find.
@@ -13,8 +13,9 @@ import match from './match.js';
  */
 export default function* bruteForce(s, si, sj, p, pi, pj) {
 	const m = pj - pi;
+	const sk = sj - m;
 
-	for (; si <= sj - m; ++si) {
-		if (match(m, s, si, p, pi)) yield si;
+	for (; si <= sk; ++si) {
+		if (startsWith(p, pi, pj, s, si)) yield si;
 	}
 }
