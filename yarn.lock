@@ -1265,10 +1265,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.0.1.tgz#d26729db850fa327b7cacc5522252194404226f5"
   integrity sha512-Qm9hBEBu18wt1PO2flE7LPb30BHMQt1eQgbV76YntdNk73XZGpn3izvGTYxbGgzXKgbCjiia0uxTd3aTNQrY/g==
 
-"@string-searching/specification@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@string-searching/specification/-/specification-0.2.0.tgz#151c97cbe4e14c9073886f0efc721e0098d7648b"
-  integrity sha512-PpoRAxCF9w6SrpWPZKtM52IzRI3vsx5mQ6xtFSJr6YmRfilUDxTTanVplyL0XSbT3UeaVDQYwpsQBHQvnZETwA==
+"@string-searching/specification@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@string-searching/specification/-/specification-0.3.0.tgz#37123ce1303068d724a740e9ecb9fc396110f245"
+  integrity sha512-25d2gO6VBtD4BPXp627Q0JSzg/p92xZuq5WuVaAq7NjYS2lRxwD653PsRJ1jesjTaEfkCvXjBzmafONKi78fxQ==
 
 "@szmarczak/http-timer@^1.1.2":
   version "1.1.2"
