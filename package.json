@@ -208,7 +208,7 @@
           }
         }
       ],
-      "unicorn/prefer-no-protocol": "off"
+      "unicorn/prefer-node-protocol": "off"
     },
     "overrides": [
       {
