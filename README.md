@@ -27,8 +27,7 @@ startsWith(pattern, 0, 2, string, 4); // true
 [![License](https://img.shields.io/github/license/string-searching/brute-force.svg)](https://raw.githubusercontent.com/string-searching/brute-force/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@string-searching/brute-force.svg)](https://www.npmjs.org/package/@string-searching/brute-force)
 [![Tests](https://img.shields.io/github/workflow/status/string-searching/brute-force/ci:test?event=push&label=tests)](https://github.com/string-searching/brute-force/actions/workflows/ci:test.yml?query=branch:main)
-[![Dependencies](https://img.shields.io/david/string-searching/brute-force.svg)](https://david-dm.org/string-searching/brute-force)
-[![Dev dependencies](https://img.shields.io/david/dev/string-searching/brute-force.svg)](https://david-dm.org/string-searching/brute-force?type=dev)
+[![Dependencies](https://img.shields.io/librariesio/github/string-searching/brute-force.svg)](https://github.com/string-searching/brute-force/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/string-searching/brute-force.svg)](https://github.com/string-searching/brute-force/issues)
 [![Downloads](https://img.shields.io/npm/dm/@string-searching/brute-force.svg)](https://www.npmjs.org/package/@string-searching/brute-force)
 
