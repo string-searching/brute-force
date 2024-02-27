@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {single, data} from '@string-searching/specification';
 
-import {findAll} from '../../src/index.js';
+import {findAll} from '#module';
 
 single({
 	test,
